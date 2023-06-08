@@ -1,5 +1,4 @@
 # 0x02. Python - import & modules
- ![cat](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/621c6dd72e1acff708141f3fab6dfa6ff37c5ee6.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230608%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230608T144224Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=ad71c35cabfd88a1302d75048d815b74288b21faa32f4c21496e7a0fa3924eea)
 
 ## Learning Objectives
 - Why Python programming is awesome
