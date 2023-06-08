@@ -1,10 +1,9 @@
 #!/usr/bin/python3
-import sys
-
+from sys import argv
 
 if __name__ == "__main__":
-    l = sys.argv[1:]
-    total = 0
-    for k in l:
-        total = total + int(k)
-    print(total)
+    length = len(argv)
+    sum = 0
+    for i in range(1, length):
+        sum += int(argv[i])
+    print("{:d}".format(sum))
