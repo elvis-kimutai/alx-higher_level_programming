@@ -1,3 +1,15 @@
 # 0x03. Python - Data Structures: Lists, Tuples
 
-![Image of a cat](https://lh3.googleusercontent.com/Zv3wJ5IV2AGxd_nAtwni4jhDXC8XixTpTZL1VXZxuXqWm2ZA9WZGdtFCz-qTt9VvSkuz60We4sLXulF8lOVnFzeJ-W4Q4cMN3RbWlapP)
+## Learning Objectives
+- Why Python programming is awesome
+- What are lists and how to use them
+- What are the differences and similarities between strings and lists
+- What are the most common methods of lists and how to use them
+- How to use lists as stacks and queues
+- What are list comprehensions and how to use them
+- What are tuples and how to use them
+- When to use tuples versus lists
+- What is a sequence
+- What is tuple packing
+- What is sequence unpacking
+- What is the del statement and how to use it
