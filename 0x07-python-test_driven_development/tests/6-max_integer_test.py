@@ -1,12 +1,14 @@
 #!/usr/bin/python3
-""" Unittest for function max_integer module"""
+""" Unittest for function max_integer"""
 
 import unittest
 max_integer = __import__('6-max_integer').max_integer
 
 
 class TestMaxInteger(unittest.TestCase):
-    """ Testcase for the max_integer function"""
+    """
+    Testcase for max_integer function
+    """
 
     def test_empty_list(self):
         """ Test an empty list"""
@@ -24,7 +26,7 @@ class TestMaxInteger(unittest.TestCase):
         self.assertEqual(max_integer(max_at_beginning), 4)
 
     def test_ordered_list(self):
-        """Test an ordered list of integers."""
+        """Test ordered list of integers."""
         ordered = [1, 2, 3, 4]
         self.assertEqual(max_integer(ordered), 4)
 
@@ -40,7 +42,7 @@ class TestMaxInteger(unittest.TestCase):
 
     def test_ints_and_floats_list(self):
         """Test a list of ints and floats."""
-        ints_and_floats = [1.53, 15.5, -9, 15, 6]
+        ints_and_floats = [1.42, 15.5, -9, 12, 3]
         self.assertEqual(max_integer(ints_and_floats), 15.5)
 
     def test_float_list(self):
@@ -50,7 +52,7 @@ class TestMaxInteger(unittest.TestCase):
 
     def test_string_list(self):
         """Test a string."""
-        string = "Terry"
+        string = "Python"
         self.assertEqual(max_integer(string), 'y')
 
     def test_neg_float_list(self):
@@ -59,7 +61,7 @@ class TestMaxInteger(unittest.TestCase):
         self.assertEqual(max_integer(neg_float), -5.55)
 
     def test_diff_datatypes(self):
-        """ Test different data types"""
+        """ Test diffnt data types"""
         with self.assertRaises(TypeError):
             max_integer([1, "1"])
 
