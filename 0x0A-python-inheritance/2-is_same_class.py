@@ -3,6 +3,7 @@
     define a class is_same_class
 """
 
+
 def is_same_class(obj, a_class):
     """
         check if an object is an exact instance of the specified class
