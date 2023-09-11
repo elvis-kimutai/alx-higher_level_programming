@@ -1,11 +1,7 @@
 #!/usr/bin/node
 
-if (process.argv[2] && process.argv[3])
-{
- console.log(process.argv[2] + ' is ' + process.argv[3]);
-}
-else
-{
+const process = require('process');
 
- console.log('undefined is undefined');
-}
+const oneArg = process.argv;
+const twoArg = process.argv;
+console.log(oneArg[2] + ' is ' + twoArg[3]);
