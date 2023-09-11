@@ -1,11 +1,9 @@
 #!/usr/bin/node
 
+const { argv } = require('process');
 
-if (process.argv[2]) 
-{
-  console.log(process.argv[2]);
-} 
-else 
-{
-  console.log("No argument");
+if (argv[2] == null) {
+  console.log('No argument');
+} else {
+  console.log(argv[2]);
 }
