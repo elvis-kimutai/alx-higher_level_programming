@@ -10,11 +10,12 @@ if __name__ == '__main__':
                              passwd=argv[2], db=argv[3])
 
     the_cursor = the_db.cursor()
-    the_cursor.execute("SELECT * FROM states")
+    the_cursor.execute("SELECT * FROM states WHERE name\
+                       LIKE BINARY 'N%' ORDER BY id ASC")
 
-    thedata = cur.fetchall()
+    thedata = the_cursor.fetchall()
     for rows in thedata:
-        print(i)
+        print(rows)
     # Closes up process
     the_cursor.close()
     the_db.close()
