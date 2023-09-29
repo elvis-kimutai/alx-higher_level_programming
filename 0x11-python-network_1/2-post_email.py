@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
-script that send a POST request to the passed URL with the email as a parameter,
-& display body of the response (decoded in utf-8)
+script that send a POST request to the passed URL with the email as
+a parameter,& display body of the response (decoded in utf-8)
 """
 
 import sys
